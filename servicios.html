@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!--Referencia a la libreria de css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!--Referencia a la libreria de boostrap-->
+    <title>Servicios</title>
+    <link rel="icon" type="image/png" href="img/Logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!--Link js-->
+    <script type="text/javascript" src="form.js"></script>
+    <!--Link para fuente-->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/liberation-sans" type="text/css"/>
+</head>
+
+<body>
+
+
+
+<!--Barra de navegación-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #0e5022; ">
+        
+        <div class="container-fluid d-flex ">
+
+            <!--Logo con texto lado izquierdo-->
+            <a class="navbar-brand" href="index.html">
+                <img src="Img\Logo.png" alt="" width="30" height="30"
+                    class="d-inline-block align-text-top">
+                Energie Universelle
+            </a>
+
+<!--Links parte derecha-->
+            <div class="flex-row bd-highlight">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                  <div class="collapse navbar-collapse" id="mainNav">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" style="color: white;" href="index.html">INICIO</a>
+                        <a class="nav-item nav-link" style="color: white;" href="servicios.html">SERVICIOS</a>
+                        <a class="nav-item nav-link" style="color: white;" href="contacto.html">CONTACTO</a>
+                    </div>                
+            </div>
+            </div>
+        </div>
+    </nav>
+
+
+  
+
+
+<!--Imagen con texto-->
+    <div class="parallaxServicios">
+        <div class="centrado-1-1 ">
+            <h2 class="centrado-1-2" style="color: white;">SERVICIOS</h2>
+        </div>
+        <div class="centrado-4-1">
+            <h1 class="centrado-4" style="text-align: center; color: white;">Conoce nuestros servicios, si tienes duda de alguno o deseas más información no dudes en contactarnos. Pregúntanos por alguno en específico si no lo encuentras en la lista.</h1>
+        </div>
+    </div>
+
+    <!--Contenido Servicios1-->
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <p><br></p>
+                <h3 class="titulo-cat1">
+                    Construcción
+                </h3>
+                <p class="descripcion-cat1">
+                    Ayudando al medio ambiente, buscamos encontrar diferentes formas de realizar nuevos tipos de infraestructuras con los cuales el medio ambiente no se vea afectado de manera en la que los recursos que se puedan aprovechar se terminen por desperdiciar. Ofrecemos todo tipo de infraestructura para realizar cualquier tipo de proyecto que se tenga en mente tales como la construcción de escuelas, hospitales, residenciales, gasolineras etc.                 </p>
+                <br>
+                </div>
+            <div class="col-md-6" style="text-align: center;">
+                <img class="img-cat1" src="Img/sustentable.jpg">
+            </div>
+        </div>
+            <div id="alertacat1info" class="descripcion-cat1-2">
+                <p>
+                    Ante la problemática de la disposición de aguas residuales urbanas en
+                    Yucatán y la imposibilidad de solución por medios convencionales
+                    (para dotar a la ciudad de drenaje debido al coste que se generaría el
+                    establecimiento de plantas tratadoras de aguas residuales. Toda vez que las características del suelo de Yucatán son una
+                    planicie calcárea, razón por la cual, no existen lagos ni ríos, las aguas
+                    de lluvia se infiltran rápidamente al subsuelo llegando al acuífero,
+                    arrastrando la contaminación generada por el ser humano, la
+                    industria y las granjas porcinas, generando la contaminación a los
+                    mantos freáticos. 
+                    En el caso de la ciudad de Mérida existen dificultades para instalar un
+                    sistema de drenaje debido a los altos costos de excavación y
+                    explosivos necesarios, en virtud de que el suelo es rocoso y plano.
+                    en el supuesto de que el drenaje municipal se hiciera factible en la
+                    ciudad de Mérida, el problema no se resolvería por completo, pues siempre existirían ciudades como progreso, Motul, Valladolid, entre
+                    otras, los pequeños núcleos de población, que carecen del mismo,
+                    seguirían contaminando el manto freático
+
+
+                    <br><br>
+                </p>
+            </div>
+            <div class="row" style="text-align: center; margin-bottom: 40px;">
+                <div id="alertacat1doc" class="col-md-12">
+                    <a href="pdf/5 PROYECTO ECOTURÍSTICO INTEGRAL DE BAJO IMPACTO.pdf">
+                        <br>
+                        <button class="btn-cat1">Ver documento</button>
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <br>
+                        <input id="btn-cat1" class="btn-cat1" type="button" onclick="mostrar_cat1()" class="add-to-cart" value="Más información"/>
+                        <br>
+                </div>
+            </div>
+    </div>
+    <!--Contenido Servicios2-->
+    <div class="fondoVerde container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" id="img-resposive-catV" style="text-align: center;">
+                    <img class="img-cat2" src="Img/cat-1.jpg">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="titulo-cat2">
+                        Energías limpias
+                    </h3>
+                    <p class="descripcion-cat2" id="desc-resposive-catV">
+                        En la búsqueda de un mundo más limpio decidimos ampliar nuestro catalogo para así tener dentro de nuestras posibilidades la creación de energías completamente limpias que nos proporcionen un mejor y mayor rendimiento al usarse dentro de los proyectos, hemos estado trabajando junto con empresas que se especializan en estas energías para brindarle a nuestros clientes las mejores opciones al momento de su decisión al escoger una.
+                    </p>
+                    <br>
+                </div>
+            </div>
+            <!--Parte de información extra que se puede expandir-->
+            <div id="alertacat2info" class="descripcion-cat2-2">
+                <p>
+                    La base del Complejo Industrial es la CIEL-Ca, que se abocará a la generación de Energía Limpia,
+                    producción de combustibles y materias primas, así como a la obtención agua, mediante la
+                    recuperación de su calidad, todo ello obtenido de la valorización de residuos y desechos generados
+                    en el Estado de Campeche; se contempla la alta posibilidad de ampliar el servicio a la Riviera Maya,
+                    tanto de recepción de residuos y desechos, como se proveerle los productos e insumos obtenidos.
+                    Debido a la magnitud del proyecto se ha decidido implementar la CIEL-Ca en 3 Etapas, y otras 3 para
+                    complementar el Complejo Productivo; las iniciales se abocarán a la construcción, equipamiento y
+                    puesta en marcha de la CIEL-Ca y las subsecuentes a consolidar el Complejo mediante la
+                    implementación de 31 Industrias e Invernaderos, a los que se les proveerá de energía eléctrica
+                    limpia, combustibles, materias primas y agua, todo ello a precios preferenciales.
+                    <br><br>
+                </p>
+            </div>
+            <!--Parte de botones-->
+            <div class="row" style="text-align: center;">
+                <div id="alertacat2doc" class="col-md-12">
+                    <a href="pdf/PROYECTO YAXCABA.pdf">
+                        <button class="btn-cat1">Ver documento</button>
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <br>
+                        <input id="btn-cat2" class="btn-cat1" type="button" onclick="mostrar_cat2()" class="add-to-cart" value="Más información"/>
+                        <br><br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contenido Servicios3-->
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <p><br></p>
+                <h3 class="titulo-cat1">
+                    Comercialización
+                </h3>
+                <p class="descripcion-cat1">
+                    Pensando en nuestros clientes, contamos con un catálogo muy amplio de comercialización con el fin de permitirnos arreglar los distintos problemas que puedan llegar a suceder en cuestión de logística, transportación etc. Somos la empresa ideal para hacer cualquier tipo de negocios ya sea nacional o internacional. </p>
+                <br>
+                </div>
+            <div class="col-md-6" style="text-align: center;">
+                <img class="img-cat3" src="Img/comer.jpg">
+            </div>
+        </div>
+            <div id="alertacat3info" class="descripcion-cat3-3">
+                <p>
+                    En esta proyecto se pretende la instalación de 50 invernaderos que permitan satisfacer las 
+                    cesidades regionales en una primera etapa, El tamaño de cada invernadero es de una hectárea 
+                    y la producción que se estima es cuatro veces superior a la cosecha normal y en menor tiempo, 
+                    pudiendo con ello lograr la autosuficiencia en el abasto de verduras a nivel regional y, por que no 
+                    decirlo, a nivel nacional. Por esto mismo la empresa Energie Universelle contando con los permisos adecuados
+                    para la comercialización, distribución, pocesamiento y cultivacíon desarrollo ayudo a la conlcusion
+                    de invernaderos de arroz, fresas, papa, sandias y melones con un alto nivel de sustentabilidad y con la
+                    mayor economisacíon de agua posible para hacer este proyecto uno de los más grandes Eco-Friendly en la 
+                    regíon. 
+                    <br><br>
+                </p>
+            </div>
+            <div class="row" style="text-align: center; margin-bottom: 40px;">
+                <div id="alertacat3doc" class="col-md-12">
+                    <a href="pdf/01 Proyecto Invernaderos.pdf">
+                        <br>
+                        <button class="btn-cat3">Ver documento</button>
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <br>
+                        <input id="btn-cat3" class="btn-cat3" type="button" onclick="mostrar_cat3()" class="add-to-cart" value="Más información"/>
+                        <br>
+                </div>
+            </div>
+    </div>
+    <div class="fondoVerde2">
+        &nbsp;
+    </div>
+    <!--Parte final para botón de contacto-->
+    <div class="row container-fluid">
+        <div class="col-md-6">
+            <h3 class="contactoServicios">
+                ¿Has encontrado lo que buscabas? Te invitamos a escribirnos desde la página de contacto. 
+                Estamos a tus órdenes.
+            </h3>
+        </div>
+        <div class="col-md-6" style="text-align: center;">
+            <a href="contacto.html">
+                <button class="btnContactoServicios">CONTÁCTANOS</button>
+            </a>
+        </div>
+    </div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+   
+</body>
+</html>

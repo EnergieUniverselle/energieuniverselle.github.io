@@ -435,13 +435,13 @@ a:hover{
 }
 .img-cat1{
     text-align: center;
-    padding: 5% 0;
+    padding: 55% 0;
     width: 520px;
     height: "";
 }
 @media only screen and (max-width: 1115px){
     .img-cat1{
-        padding: 105% 0;
+        padding: 15% 0;
     }
 }
 @media only screen and (max-width: 950px){

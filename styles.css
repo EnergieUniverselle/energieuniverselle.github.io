@@ -441,19 +441,19 @@ a:hover{
 }
 @media only screen and (max-width: 1115px){
     .img-cat1{
-        padding: 15% 0;
+        padding: 25% 0;
     }
 }
 @media only screen and (max-width: 950px){
     .img-cat1{
         width: 350px;
-        padding: 45% 0;
+        padding: 65% 0;
     }
 }
 @media only screen and (max-width: 840px){
     .img-cat1{
         width: 350px;
-        padding: 40% 0;
+        padding: 70% 0;
     }
 }
 @media only screen and (max-width: 767px){
